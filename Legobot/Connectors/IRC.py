@@ -5,9 +5,9 @@ import ssl
 import threading
 import logging
 
-import irc.bot
-import irc.client
-import irc.connection
+from . import irc.bot
+from . import irc.client
+from . import irc.connection
 
 from Legobot.Message import Message, Metadata
 from Legobot.Lego import Lego

@@ -143,7 +143,7 @@ class ReplyTestingPingLego(Lego):
         elif message['text'] == '2':
             self.reply(message, '3')
         else:
-            print(message['text'])
+            print((message['text']))
 
 
 class ReplyTestingPongLego(Lego):
